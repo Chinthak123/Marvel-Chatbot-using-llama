@@ -1,18 +1,76 @@
-<h1 align="center">Hi 👋, I'm Abhirami J</h1>
-<h3 align="center">Welcome to my GitHub profile! I’m an AI and Data Science student with a strong passion for Python, Data Science, and Machine Learning. I enjoy working with data, uncovering meaningful insights, and building models that solve real-world problems.</h3>
+🦸 Marvel Fan Chatbot (LangChain + Llama)
 
-- 🔭 I’m currently working on **Revox:sentimental analysis of indian politics**
+A fun AI-powered chatbot built using LangChain, Llama (via Groq), and Gradio UI.
+This bot behaves like a Marvel Universe expert and answers only Marvel-related questions.
 
-- 🌱 I’m currently learning **power bi and other bi related tools**
+🚀 Features
 
-- 📫 How to reach me **abhiabhirami511@gmail.com**
+✅ Marvel-only responses (MCU, characters, comics, movies)
+✅ Friendly fan-style personality
+✅ Special creator response
+✅ Clean chat interface (Gradio)
+✅ Runs easily on Google Colab
 
-- ⚡ Fun fact **I enjoy Data Science because finding insights in messy data feels like solving puzzles no one else can see.**
+🛠 Tech Stack
 
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-</p>
+LangChain – LLM orchestration
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://www.cprogramming.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="c" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://www.java.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/> </a> <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> </a> <a href="https://opencv.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/opencv/opencv-icon.svg" alt="opencv" width="40" height="40"/> </a> <a href="https://pandas.pydata.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/pandas/pandas-original.svg" alt="pandas" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> <a href="https://scikit-learn.org/" target="_blank" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" alt="scikit_learn" width="40" height="40"/> </a> <a href="https://seaborn.pydata.org/" target="_blank" rel="noreferrer"> <img src="https://seaborn.pydata.org/_images/logo-mark-lightbg.svg" alt="seaborn" width="40" height="40"/> </a> <a href="https://www.tensorflow.org" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/tensorflow/tensorflow-icon.svg" alt="tensorflow" width="40" height="40"/> </a> </p>
+Groq API – Llama model hosting
 
+Llama Model – Core language model
+
+Gradio – UI interface
+
+🔑 Getting API Key (Important)
+
+This project uses Groq to access Llama models.
+
+Visit → https://console.groq.com
+
+Sign in (GitHub login works)
+
+Go to API Keys
+
+Click Create API Key
+
+Copy the key
+
+📦 Installation (Colab)
+
+Run this inside Google Colab:
+
+!pip install langchain langchain-groq gradio
+🧠 Chatbot Code
+
+Paste your API key here:
+
+LLAMA_API_KEY = "YOUR_API_KEY_HERE"
+🎭 Bot Behavior
+
+The chatbot is controlled using a system prompt.
+
+Rules include:
+
+Only answer Marvel-related questions
+
+Politely refuse unrelated topics
+
+Speak like a Marvel fan
+
+If asked who built you → respond:
+
+I was built by Chinthak ⚡
+🖥 Running the UI
+
+Gradio generates a live chat interface:
+
+interface.launch()
+
+Colab will provide a clickable link.
+
+💬 Example Questions
+
+✔ Who is stronger, Thor or Hulk?
+✔ Explain Infinity Stones
+✔ Best Iron Man suits?
+✔ Tell me about Loki variants
